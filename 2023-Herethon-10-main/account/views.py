@@ -37,4 +37,4 @@ def signup_view(request):
         return redirect('home')
     else:
         form = RegisterForm()
-        return render(request, 'signup.html', {'form': form})
+        return render(request, 'memb.html', {'form': form})

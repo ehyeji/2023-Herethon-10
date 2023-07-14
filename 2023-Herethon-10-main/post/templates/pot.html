@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main2</title>
+    <link rel="stylesheet" type="text/css" href="pot.css">
+</head>
+<body>
+    <section>
+        <div id="status-bar">
+            <div id="time"></div>
+            <div id="battery">
+                <img class="battery1" src="img/battery.jpg">
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div id="status-bar">
+            <div class="logo">
+                <img class="logo_img" src="img/logo.jpg">
+            </div>
+            <div class="img_wrap">
+                <img src="img/search.jpg">
+                <img class="img_bell" src="img/bell.jpg">
+                <a href="myPage.html"><img src="img/user0.jpg"></a>
+            </div>
+        </div>
+    </section>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#" class="menu_link">타임라인</a></li>
+            <li><a href="main2_job.html" class="menu_link">고민상담</a></li>
+            <li><a href="pot.html" class="menu_link2">고함항아리</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <div class="text3">
+            말 못할 감정들 고함항아리에 다 털어버리세요!<br>
+            하루가 지나면 말끔히 해결되어 사라질 거에요 :) 
+        </div>
+    </section>
+
+    <section>
+        <div class="emo">
+            <div id="selectedImage"></div>
+        </div>
+    </section>
+    
+    <aside>
+        <a href="pot2.html">
+            <button class="plus_btn" onclick="addSelectedImage();">고함항아리에 소리지르기</button>
+        </a>
+    </aside>
+    <button class="btn" onclick="clearSelectedImages()">?</button>
+<script src="pot.js"></script>
+</body>
+</html>
