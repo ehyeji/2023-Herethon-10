@@ -1,0 +1,113 @@
+body {
+    width: 399px;
+    height: 844px;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 줄 */
+.hr{
+    border: none;
+    height: 10px;
+    background-color: #F4F4F4;
+    margin: 20px 0;
+}
+/* 시간&배터리 */
+
+#status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 5px 15px;
+    color: #000000;
+    
+}
+
+#time {
+    margin-right: 10px;
+    font-weight:bold;
+}
+
+#battery {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #777;
+    border: none;
+}
+
+.battery1 {
+    width: 80px;
+}
+
+/* 뒤로가기*/
+.arrow {
+    color: #8D8D8D;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    padding-left:15px;
+    height: 25px;
+}
+
+/*프로필*/
+.user_wrap{
+    display: flex;
+    align-items: center;
+    margin:20px;
+}
+.circle {
+    width: 70px;
+    height: 70px;
+    background-color: #52ACFF;
+    border-radius: 50%;
+}
+.user{
+    margin-left: 20px; 
+}
+.user_nick{
+    font-weight:bold;
+}
+.user_id{
+    font-size:12px;
+    color:gray;
+    padding-top:5px;
+}
+
+/* 내가 쓴 글*/
+.box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    margin-bottom:20px;
+}
+
+.text {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.arrow2 {
+    color: #8D8D8D;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+}
